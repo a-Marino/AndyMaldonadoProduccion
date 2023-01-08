@@ -3,6 +3,7 @@
         <Nav/>
         <Main/>
         <About/>
+        <Videos/>
     </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Main from '@/components/Main.vue'
 import About from '@/components/About.vue'
 import Nav from '@/components/Nav.vue'
+import Videos from '@/components/Videos.vue'
 
 export default {
     name: 'Home',
@@ -17,6 +19,7 @@ export default {
         Main,
         About,
         Nav,
+        Videos,
     }
 }
 </script>

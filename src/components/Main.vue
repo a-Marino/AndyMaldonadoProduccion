@@ -10,11 +10,11 @@
         <!-- MAIN  -->
         <div class="main min-w-full">
             <div class="flex flex-col space-y-5 md:space-y-0 md:flex-row md:justify-between justify-center items-center min-h-full">
-                <div class="flex flex-col name space-y-1 md:ml-16">
-                    <span class="text-3xl md:text-6xl md:-ml-10">ANDY</span>
+                <div class="flex flex-col name space-y-1 md:ml-20">
+                    <span class="text-3xl md:text-6xl md:-ml-10 andy">ANDY</span>
                     <span class="text-5xl md:text-8xl">MALDONADO</span>
                 </div>
-                <div class="redes flex flex-row md:flex-col md:space-y-5 md:space-x-0 space-x-5 md:mr-5">
+                <div class="redes flex flex-row md:flex-col md:space-y-5 md:space-x-0 space-x-5 md:mr-7">
                     <a href="https://www.instagram.com/andymaldonadok/" target="blank">
                         <img src="@/assets/images/instagram.png" alt="instagram" class="w-6 md:w-8 icono-redes">
                     </a>
@@ -49,15 +49,15 @@ export default {
     font-family: 'TypoGraphica';
 }
 
+.andy {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
 span {
     cursor: default;
     transition: .5s;
     color: #fff;
-}
-
-span:hover {
-    -webkit-text-stroke: 2px #fff;
-    color: transparent;
 }
 
 .icono-redes:hover {

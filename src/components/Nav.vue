@@ -1,6 +1,6 @@
 <template>
     <header class="fixed left-0 min-w-full">
-        <nav class="flex flex-row p-5 justify-between">
+        <nav class="flex flex-row p-8 justify-between">
             <img src="@/assets/images/logoAM.png" alt="logoAM" class="h-8">
         </nav>
     </header>
