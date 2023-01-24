@@ -36,17 +36,20 @@ export default {
         this.getIdVideo()
     }
 }
-
 </script>
 
 <style scoped>
 .vidSection {
     font-family: 'TypoGraphica';
     background-color: black;
+    background-image: url(../assets/images/bg-logo-2.png);
+    background-size: cover;
 }
 .videos {
     width: 250;
     height: 141;
+    border: 3px solid #E4E8ED;
+    border-radius: 10px;
 }
 
 @media (min-width: 768px) {
