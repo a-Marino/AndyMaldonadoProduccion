@@ -3,7 +3,7 @@
         <span class="ml-10 text-4xl md:mt-0 mt-16">Last videos</span>
         <div class="flex flex-col md:flex-row justify-center items-center md:space-x-5 md:space-y-0 space-y-5">
             <div v-for="id, Index in idVideo" :key="Index">
-                <iframe class="videos" :src="'https://www.youtube-nocookie.com/embed/'+id.id.videoId" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="no-referrer"></iframe>
+                <iframe class="videos" :src="'https://www.youtube-nocookie.com/embed/'+id.id.videoId" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div> 
         </div>
         <div class="hidden md:flex justify-center">

@@ -5,8 +5,10 @@
         </video>
         <div class="about-text flex flex-col md:pl-20 space-y-4">
             <span class="text-3xl md:text-5xl cursor-default">ABOUT ME</span>
-            <p class="text-lg md:text-xl cursor-default">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eveniet beatae nisi culpa illum, voluptatibus fuga ipsam dolorum? Similique, itaque consequatur ipsam omnis esse, quo corrupti aliquam facere beatae error delectus, porro nihil impedit maxime soluta debitis nobis ut ab!
+            <p class="text-lg md:text-xl cursor-default tracking-wide">
+               <span class="mr-3">Hi my name is Andy Maldonado.</span>I have 22 years old and im from Argentina<br>
+                I am a composer<span class="font-sans">, </span> beatmaker and i also do mixing and mastering.
+                <!-- HACER -->
             </p>
         </div>
     </div>
