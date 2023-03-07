@@ -1,5 +1,5 @@
 <template>
-    <div class="about min-h-screen flex items-center justify-center md:justify-start text-white relative bg-black">
+    <div class="about min-h-screen flex items-center justify-center md:justify-start text-white relative bg-black" id="about">
         <video autoplay loop muted plays-inline class="min-h-screen video absolute top-0">
             <source src="@/assets/videos/logoAnimationV2.mp4" type="video/mp4">
         </video>

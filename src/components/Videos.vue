@@ -1,5 +1,5 @@
 <template>
-    <div class="vidSection min-h-screen flex flex-col justify-center space-y-3 md:p-10 text-white">
+    <div class="vidSection min-h-screen flex flex-col justify-center space-y-3 md:p-10 text-white" id="videos">
         <span class="ml-10 text-4xl md:mt-0 mt-16">Last videos</span>
         <div class="flex flex-col md:flex-row justify-center items-center md:space-x-5 md:space-y-0 space-y-5">
             <div v-for="id, Index in idVideo" :key="Index">

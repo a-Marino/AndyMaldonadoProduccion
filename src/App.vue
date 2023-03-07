@@ -20,6 +20,10 @@
   src: url(assets/fonts/TypoGraphica.otf);
 }
 
+html {
+  scroll-behavior:smooth
+}
+
 * {
   padding: 0;
   margin: 0;

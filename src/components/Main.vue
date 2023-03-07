@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black text-white min-h-screen flex justify-center relative">
+    <div class="bg-black text-white min-h-screen flex justify-center relative" id="main">
         <!-- VIDEOS LOGO 3D -->
         <video autoplay loop muted plays-inline class="md:min-h-screen absolute bottom-0">
             <source src="@/assets/videos/logoAnimation.mp4" type="video/mp4">
@@ -25,6 +25,9 @@
                     </a>
                     <a href="https://www.tiktok.com/@andymaldonadok" target="blank">
                         <img src="@/assets/images/tik-tok.png" alt="tiktok" class="w-6 md:w-8 icono-redes">
+                    </a>
+                    <a href="https://soundcloud.com/andy-maldonado-885670744" target="blank">
+                        <img src="@/assets/images/soundcloud-logo.png" alt="tiktok" class="w-6 md:w-8 icono-redes">
                     </a>
                 </div>
             </div>
